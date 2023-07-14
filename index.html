@@ -29,8 +29,13 @@
       rel="stylesheet"
       href="resets.css"
     />
-  </head>
 
+    <!-- UNICON -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css"
+    />
+  </head>
   <body>
     <main>
       <div class="container main__container">
@@ -38,24 +43,34 @@
           <img
             src="./images/illustration-sign-up-mobile.svg"
             alt="illustration-sign-up"
+            class="mobile__img"
           />
           <img
             src="./images/illustration-sign-up-desktop.svg"
             alt="illustration-sign-up"
+            class="desktop__img"
           />
         </div>
         <div class="main__body">
-          <h2>Stay Updated!</h2>
+          <h1>Stay Updated!</h1>
           <p>Join 60,000+ product managers receiving monthly updates on:</p>
           <div class="points__container">
             <div class="point">
-              <span class="rounded__check"></span>
+              <span class="rounded__check">
+                <i class="uil uil-check"></i>
+              </span>
               <p>Product discovery and building what matters</p>
             </div>
             <div class="point">
+              <span class="rounded__check">
+                <i class="uil uil-check"></i>
+              </span>
               <p>Measuring to ensure updates are a success</p>
             </div>
             <div class="point">
+              <span class="rounded__check">
+                <i class="uil uil-check"></i>
+              </span>
               <p>And much more!</p>
             </div>
           </div>
@@ -67,6 +82,7 @@
               name="email"
               placeholder="email@company.com"
             />
+            <button type="submit">Subscribe to monthly newsletter</button>
           </form>
         </div>
       </div>
