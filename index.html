@@ -74,15 +74,28 @@
               <p>And much more!</p>
             </div>
           </div>
-          <form action="#">
-            <label for="email">Email address</label>
+          <form
+            id="form"
+            action="Success.html"
+          >
+            <div>
+              <label for="email">Email address</label>
+              <h5 id="error-message">Invalid Email</h5>
+            </div>
             <input
               type="text"
               id="email"
               name="email"
+              class="emailInput"
               placeholder="email@company.com"
+              required
             />
-            <button type="submit">Subscribe to monthly newsletter</button>
+            <button
+              id="submitEmail"
+              type="submit"
+            >
+              Subscribe to monthly newsletter
+            </button>
           </form>
         </div>
       </div>

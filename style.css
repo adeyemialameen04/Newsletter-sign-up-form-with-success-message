@@ -94,7 +94,7 @@ body {
   /* gap: 2rem; */
 }
 
-.main__body form input {
+.emailInput {
   height: 50px;
   padding-left: 20px;
   outline: none;
@@ -120,8 +120,31 @@ body {
   font-weight: 700;
 }
 
+#form>div:nth-child(1) {
+  /* background-color: green; */
+  /* margin-bottom: 0.8rem; */
+  display: flex;
+  justify-content: space-between;
+}
+
+#error-message {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  color: var(--tomato);
+  display: none;
+}
+
 .desktop__img {
   display: none;
+}
+
+.invalidEmail {
+  background-color: red;
+}
+
+.correctEmail {
+  background-color: green;
 }
 
 @media (min-width:780px) {
