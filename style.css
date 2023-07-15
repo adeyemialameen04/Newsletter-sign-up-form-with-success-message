@@ -114,19 +114,12 @@ body {
   display: none;
 }
 
-.invalidEmail {
-  background-color: red;
-}
-
-.correctEmail {
-  background-color: green;
-}
-
 @media (min-width:780px) {
   .main__container {
     flex-direction: row;
     padding-inline: 3rem 1rem;
-    height: 60vh;
+    height: max-content;
+    padding-block: 3rem;
     align-items: center;
     gap: 3rem;
     border-radius: 3rem;
