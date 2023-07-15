@@ -66,7 +66,6 @@ body {
 .main__body form {
   display: flex;
   flex-direction: column;
-  /* gap: 2rem; */
 }
 
 .emailInput {
@@ -77,6 +76,13 @@ body {
   border: 1px solid var(--grey);
   border-radius: .5rem;
   margin-bottom: 1.4rem;
+  transition: var(--transition);
+}
+
+.emailInput:focus-visible {
+  border-color: var(--dark-slate-grey);
+  color: var(--dark-slate-grey);
+  font-weight: 500;
 }
 
 .main__body form button {
@@ -87,6 +93,11 @@ body {
   height: 50px;
   border-radius: .5rem;
   border: none;
+  transition: var(--transition);
+}
+
+.main__body form button:hover {
+  background-color: var(--tomato);
 }
 
 .main__body form label {
@@ -96,8 +107,6 @@ body {
 }
 
 #form>div:nth-child(1) {
-  /* background-color: green; */
-  /* margin-bottom: 0.8rem; */
   display: flex;
   justify-content: space-between;
 }
