@@ -18,9 +18,9 @@
 }
 
 body {
-  /* display: flex;
+  display: flex;
   align-items: center;
-  justify-content: center; */
+  justify-content: center;
   background-color: var(--dark-slate-grey);
 }
 
@@ -155,8 +155,10 @@ body {
   .main__container {
     flex-direction: row;
     padding-inline: 3rem 1rem;
+    height: 60vh;
     align-items: center;
     gap: 3rem;
+    border-radius: 3rem;
   }
 
   .main__body {
