@@ -47,6 +47,11 @@
   border-radius: .5rem;
   border: none;
   text-decoration: none;
+  transition: var(--transition);
+}
+
+.main__container a:hover {
+  background-color: var(--tomato);
 }
 
 @media(min-width:780px) {
