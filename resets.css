@@ -14,6 +14,24 @@
   margin: 0;
   padding: 0;
   font: inherit;
+
+
+  /* ## Colors */
+
+  /* ### Primary */
+
+  --tomato: hsl(4, 100%, 67%);
+  /* ### Neutral */
+
+  --dark-slate-grey: hsl(234, 29%, 20%);
+  --charcoal-grey: hsl(235, 18%, 26%);
+  --grey: hsl(231, 7%, 60%);
+  --white: hsl(0, 0%, 100%);
+
+  --transition: all 350ms ease-in-out;
+
+  --container-lg: 85%;
+  --container-md: 90%;
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
@@ -50,4 +68,17 @@ picture,
 svg {
   max-width: 100%;
   display: block;
+}
+
+
+.container {
+  width: var(--container-md);
+  margin: 0 auto;
+  background-color: var(--white);
+}
+
+@media (min-width:780px) {
+  .container {
+    width: var(--container-lg);
+  }
 }

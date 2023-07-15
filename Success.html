@@ -6,9 +6,39 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
-    <title>Document</title>
+    <title>Success Page</title>
+    <link
+      rel="stylesheet"
+      href="resets.css"
+    />
+    <link
+      rel="stylesheet"
+      href="success.css"
+    />
+
+    <!-- UNICON -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css"
+    />
   </head>
   <body>
-    <h1>Welcome</h1>
+    <main>
+      <div class="main__container container">
+        <div class="info">
+          <span>
+            <i class="uil uil-check"></i>
+          </span>
+          <h1>Thanks for subscribing!</h1>
+          <p>
+            A confirmation email has been sent to
+            <span id="email"> email@company.com</span> Please open it and click the button
+            inside to confirm your subscription
+          </p>
+        </div>
+        <a href="index.html">Dismiss message</a>
+      </div>
+    </main>
   </body>
+  <script src="success.js"></script>
 </html>

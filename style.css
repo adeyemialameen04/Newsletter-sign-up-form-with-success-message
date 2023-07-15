@@ -1,33 +1,8 @@
-* {
-  /* ## Colors */
-
-  /* ### Primary */
-
-  --tomato: hsl(4, 100%, 67%);
-  /* ### Neutral */
-
-  --dark-slate-grey: hsl(234, 29%, 20%);
-  --charcoal-grey: hsl(235, 18%, 26%);
-  --grey: hsl(231, 7%, 60%);
-  --white: hsl(0, 0%, 100%);
-
-  --transition: all 350ms ease-in-out;
-
-  --container-lg: 85%;
-  --container-md: 90%;
-}
-
 body {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: var(--dark-slate-grey);
-}
-
-.container {
-  width: var(--container-md);
-  margin: 0 auto;
-  background-color: var(--white);
 }
 
 .img__container img {
@@ -148,10 +123,6 @@ body {
 }
 
 @media (min-width:780px) {
-  .container {
-    width: var(--container-lg);
-  }
-
   .main__container {
     flex-direction: row;
     padding-inline: 3rem 1rem;
