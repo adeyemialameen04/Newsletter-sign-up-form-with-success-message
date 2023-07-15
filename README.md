@@ -19,7 +19,7 @@ The landing page consists of hero section have a full-screen height with a cente
 
 ## Demo
 
-You can view the live demo of the project [here](https://news-landing-homepage.vercel.app/).
+You can view the live demo of the project [here](https://newsletter-sign-up-form-with-success-message-theta.vercel.app).
 
 ## Installation
 
