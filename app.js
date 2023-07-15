@@ -21,5 +21,4 @@ const validateEmail = () => {
 
 submitEmailBtn.addEventListener("click", () => {
   validateEmail();
-  // alert("kk");
 });
